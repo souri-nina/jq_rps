@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.choice {
+  height: 175px;
+  width: 175px;
+  cursor: crosshair;
+  border-radius: 9px;
+}
