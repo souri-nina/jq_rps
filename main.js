@@ -11,10 +11,21 @@ $(document).ready(function() {
   var playerChoice 
   var computerChoice
 
+//FUNCTIONS
+
+  function playerChoice () {
+
+  }
+
   function computerChoice() {
     choices.each[Math.floor(Math.random() * choices.length)]
   }
 
+  function result() {
+
+  }
+
+// LISTENERS
 
   $('#rock').on('click', function(){
     playerChoice = 'rock';
@@ -32,9 +43,6 @@ $(document).ready(function() {
     playerChoice = 'scissors';
     computerChoice();
     result();
-  })
+  });
 
-
-  
-
-})
+});
